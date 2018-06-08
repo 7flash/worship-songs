@@ -1,6 +1,6 @@
 import feathers from 'feathers-client';
 
-const host = 'https://worship-songs.herokuapp.com/';
+const host = 'https://worship-songs.herokuapp.com';
 
 export default feathers()
     .configure(feathers.hooks())

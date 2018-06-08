@@ -29,6 +29,7 @@ export const SongsEdit = (props) => (
 		<SimpleForm>
 			<DisabledInput source="_id" />
 			<TextInput source="name" />
+			<TextInput source="songtext" />
 		</SimpleForm>
 	</Edit>
 );
@@ -37,6 +38,7 @@ export const SongsCreate = (props) => (
 	<Create {...props}>
 		<SimpleForm>
 			<TextInput source="name" />
+			<TextInput source="songtext" />
 		</SimpleForm>
 	</Create>
 )
